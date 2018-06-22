@@ -1,0 +1,62 @@
+body {	
+	width: 890px; 
+	margin: 0 auto; 
+	Font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, 	sans-serif; 
+	background: #F0F8FF; 
+	}
+
+header{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+	}
+
+nav{    
+display: block;
+}
+
+ul {    
+list-style-type: none;    
+margin: 0;    
+padding: 0;    
+overflow: hidden;   
+ background-color: #191970;    
+border-radius: 20px;
+}
+li {    
+float: left;
+}
+li a {    
+display: block;    
+color: #FFFFFF;    
+text-align: center;    
+padding: 14px 16px;    
+text-decoration: none;    
+}
+li a:hover:not(.active) {    
+background-color: #D3D3D3;
+}
+.active {    
+background-color: #4CAF50;    
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
